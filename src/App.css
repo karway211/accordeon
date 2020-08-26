@@ -1,0 +1,139 @@
+@media (min-width: 280px) {
+  .App {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .App__h2 {
+    text-align: center;
+    margin: 0;
+    padding-top: 200px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #F6F6F6;
+  }
+  .App__h3 {
+    text-align: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 47px;
+    
+    color: #000000;
+  }
+  .imageBlock {
+    display: block;
+    width: 250px;
+    transform: scale(-1, 1);
+    transform: rotate(60deg);
+    position: absolute;
+    top: 5px;
+    right: -33px;
+  }
+  .imageBlock > img {
+    display: block;
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .imageBlock {
+    top: 3px;
+    transform: rotate(0deg);
+    width: 332px;
+  }
+
+  .App__h2 {
+    font-size: 80px;
+    line-height: 94px;
+    padding-top: 170px;
+  }
+  .App__h3 {
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-bottom: 46px;
+  }
+}
+
+@media (min-width: 860px) {
+  .App {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+  .imageBlock {
+    right: 70px;
+  }
+}
+@media (min-width: 1140px) {
+  .App {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .imageBlock {
+    right: 90px;
+  }
+}
+@media (min-width: 1260px) {
+  .App {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .imageBlock {
+    top: 337px;
+    right: 90px;
+    width: 560px;
+  }
+}
+@media (min-width: 1580px) {
+  .App {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .imageBlock {
+    top: 337px;
+    right: 90px;
+    width: 700px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .App {
+    padding-left: 230px;
+    padding-right: 500px;
+  }
+  .App__h2 {
+    padding-top: 150px;
+    font-size: 130px;
+    line-height: 153px;
+  }
+  .App__h3 {
+    font-size: 30px;
+    line-height: 1;
+    padding: 0;
+    padding-top: 15px;
+    padding-left: 5px;
+    margin: 0;
+    margin-bottom: 78px;
+  }
+  .imageBlock {
+    top: 337px;
+    right: 238px;
+    width: 860px;
+  }
+}
+
+
